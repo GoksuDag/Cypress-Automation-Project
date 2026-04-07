@@ -4,9 +4,13 @@
   "description": "Cypress Automation Project",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cucumber": "cucumber-js"
   },
   "dependencies": {
     "cypress": "^13.0.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0"
   }
 }
