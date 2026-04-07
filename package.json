@@ -1,1 +1,12 @@
-
+{
+  "name": "cypress-automation-project",
+  "version": "1.0.0",
+  "description": "Cypress Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^13.0.0"
+  }
+}
